@@ -1,0 +1,46 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.Super_Over_League_bg_container {
+  background-color: black;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: white;
+  font-family: "Roboto";
+
+  font-size: 30px;
+  font-weight: 700;
+}
+.rcb_image {
+  width: 150px;
+  height: 150px;
+}
+
+.csk_image {
+  width: 150px;
+  height: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 64px;
+  }
+  .rcb_image {
+    width: 300px;
+    height: 300px;
+  }
+  .csk_image {
+    width: 300px;
+    height: 300px;
+  }
+}
